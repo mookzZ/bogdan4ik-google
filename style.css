@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+/* header */
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 250px;
+    gap: 0 20px;
+}
+
+.head-img {
+    width: 25px;
+    height: 25px;
+}
+
+.head-img-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.small-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.google-logo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.google-logo img {
+    width: 272px;
+    height: 92px;
+}
+
+.input-block {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+.input-area {
+    height: 36px;
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+.small-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.small-logo-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 0 20px;
+}
+
+.btn {
+    background-color: rgba(171, 167, 167, 0.26);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:active {
+    filter: brightness(60%);
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition-duration: 600ms;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.45);
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 0 15px;
+    margin: 0 10px;
+}
