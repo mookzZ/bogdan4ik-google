@@ -5,7 +5,10 @@
     font-family: sans-serif;
     color: #000000;
 }
-
+.body {
+    height: 100vh;
+    position: relative;
+}
 .wrapper {
     background-color: #ffffff;
     height: 100vh;
@@ -128,18 +131,30 @@ a:hover {
 }
 
 /*footer*/
-
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid rgba(128, 128, 128, 0.45);
-    padding: 10px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    border-top: 1px solid rgba(44, 44, 44, 0.59);
+    background-color: rgba(128, 128, 128, 0.10);
+}
+
+.footer ul li {
+    display: inline;
 }
 
 .list {
-    display: flex;
-    list-style: none;
-    gap: 0 15px;
-    margin: 0 10px;
+    display: inline-block;
+}
+.right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.left {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
